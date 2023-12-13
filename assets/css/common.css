@@ -1,0 +1,32 @@
+.blind {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    margin: -1px;
+}
+
+.container {
+    position: relative;
+}
+
+.btn_link {
+    display: inline-flex;
+    height: 60px;
+    line-height: 60px;
+    padding: 0 28px;
+    border-radius: 70px;
+    background: #fff;
+    font-size: 20px;
+}
+
+@media (max-width: 900px) {
+    .btn_link {
+        height: 40px;
+        line-height: 40px;
+        padding: 0 20px;
+        border-radius: 50px;
+        font-size: 14px;
+    }
+}

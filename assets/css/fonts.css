@@ -1,0 +1,24 @@
+/* 
+    woff2 -  웹오픈폰트포맷 최대 50%압축 [상위]
+    woff - 웹오픈폰트포맷 [모던브라우저]
+    ttf - 
+    otf - 
+    eot
+*/
+@font-face {
+    font-family: "PepsiOwners";
+    src: url(../fonts/PepsiOwners-Regular.woff2) format("woff2");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "PepsiOwners";
+    src: url(../fonts/PepsiOwners-Extended.woff2) format("woff2");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url(../fonts/Lato.woff2) format("woff2");
+    font-weight: 400;
+}
